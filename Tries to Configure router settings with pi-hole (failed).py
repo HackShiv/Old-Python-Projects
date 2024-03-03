@@ -4,7 +4,7 @@ import time
 
 # Router login information
 username = ""
-password = "ukbw7htk"
+password = "Blank"
 router_ip = "192.168.1.254"
 
 # Pi-hole IP address
