@@ -23,7 +23,7 @@ def check_pihole_status():
 
 # Login to the router
 s = requests.Session()
-data = {"":username, "ukbw7htk":password}
+data = {"":username, "ukk":password}
 s.post("http://"+router_ip+"/login.cgi", data=data)
 
 while True:
